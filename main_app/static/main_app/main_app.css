@@ -1,0 +1,20 @@
+
+.bordered-block {
+    border: solid 1px black;
+}
+
+.avatar {
+    margin-top: 25px;
+}
+
+.question-container {
+    margin-bottom: 20px;
+}
+
+.logged-in-text {
+    margin-top: 40px;
+}
+
+.left-header-container {
+    margin-top: 45px;
+}

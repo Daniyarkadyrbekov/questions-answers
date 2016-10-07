@@ -1,0 +1,31 @@
+{% load static %}
+
+<div class="row">
+    <div class="col-md-2">
+        <img class="media-obgect avatar" src="{% static 'main_app/avatar.jpg' %}" height="100" width="100">
+        <h2><span class="badge">14</span></h2>
+    </div>
+
+    <div class="col-md-10">
+        <h2><a href="{% url 'question_detail' %}">Question name</a></h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip eLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ii</p>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-5">
+                    <a href="{% url 'question_detail' %}">answer (3)</a>
+                </div>
+
+                <div class="col-md-7">
+                    <ul class="list-inline">
+                        <li><p>Tags</p></li>
+                        <li><a href="{% url 'tag_question' %}">bender</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

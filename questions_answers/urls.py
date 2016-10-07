@@ -15,7 +15,17 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+from . import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^temp/', views.GetTempPage.as_view(), name='temp_page'),
+    url(r'^new/', views.GetNewQuestions.as_view(), name='new'),
+    url(r'^new_question/', views.GetNewQuestionList.as_view(), name='new_question'),
+    url(r'^question_detail/', views.GetQuestionDetailList.as_view(), name='question_detail'),
+    url(r'^tag_question/', views.GetTagQuestions.as_view(), name='tag_question'),
+    url(r'^user_settings/', views.GetUserSettings.as_view(), name='user_settings'),
+    url(r'^login/', views.GetLoginPage.as_view(), name='login'),
+    url(r'^registration/', views.GetRegistrationPage.as_view(), name='registration'),
+    url(r'^not_logged/', views.GetNotLogged.as_view(), name='not_logged'),
 ]

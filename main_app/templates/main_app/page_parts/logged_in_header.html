@@ -1,0 +1,19 @@
+{% load static %}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6">
+            <img class="media-obgect avatar" src="{% static 'main_app/avatar.jpg' %}" height="100" width="100">
+        </div>
+
+        <div class="col-md-6">
+            <div class="logged-in-text">
+                <p>Artem Klyukvin</p>
+                <ul class="list-inline">
+                    <li><a href="{% url 'user_settings' %}">settings</a></li>
+                    <li><a href="{% url 'not_logged' %}">log out</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
