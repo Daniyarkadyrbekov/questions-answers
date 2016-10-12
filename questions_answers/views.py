@@ -1,10 +1,6 @@
 import django.views.generic
 
 
-class GetTempPage(django.views.generic.TemplateView):
-    template_name = 'main_app/pages/temp.html'
-
-
 class GetNewQuestions(django.views.generic.TemplateView):
     template_name = 'main_app/pages/new_questions_page.html'
 

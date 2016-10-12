@@ -18,3 +18,56 @@
 .left-header-container {
     margin-top: 45px;
 }
+
+.login-box-container {
+    padding-top: 65px;
+}
+
+.search-form {
+    padding-top: 13px;
+    padding-left: 30px;
+}
+
+#search-input {
+    width: 500px;
+}
+
+.gray-tag {
+    font-size: 20pt;
+    color: gray;
+}
+
+.blue-tag {
+    font-size: 20pt;
+    color: blue;
+}
+
+.red-tag {
+    font-size: 20pt;
+    color: red;
+}
+
+.orange-tag {
+    font-size: 20pt;
+    color: orange;
+}
+
+.like-badge-container {
+    margin-left: 0px;
+    margin-top: 22px;
+}
+
+.like-thumbs-container {
+    margin-left: -8px;
+}
+
+.dislike-thumbs-container {
+    margin-left: -20px;
+}
+
+.horizontal-line {
+    height: 3px; /* высота / толщина линии */
+    background: #333; /* фон / цвет линии */
+    border: 0; /* рамка вокруг разделительной линии (уберем ее) */
+    margin: 5px 0 15px 0; /* отступ над и под линией 5 пикселей */
+}

@@ -1,5 +1,7 @@
-{% extends "main_app/templates/logged_in_template.html" %}
+{% extends "main_app/templates/not_logged_template.html" %}
 
 {% block left_column %}
-    {% include "main_app/page_parts/registration_form.html" %}
+    <div class="container-fluid">
+        {% include "main_app/page_parts/registration_form.html" %}
+    </div>
 {% endblock %}

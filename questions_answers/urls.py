@@ -16,10 +16,10 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 from . import views
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^temp/', views.GetTempPage.as_view(), name='temp_page'),
     url(r'^new/', views.GetNewQuestions.as_view(), name='new'),
     url(r'^new_question/', views.GetNewQuestionList.as_view(), name='new_question'),
     url(r'^question_detail/', views.GetQuestionDetailList.as_view(), name='question_detail'),
