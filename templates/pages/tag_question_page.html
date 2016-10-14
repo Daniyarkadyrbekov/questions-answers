@@ -1,0 +1,14 @@
+{% extends "templates/logged_in_template.html" %}
+
+{% block left_column %}
+    <div class="container-fluid">
+        <ul class="list-inline">
+            <li><h2>Tag: bender</h2></li>
+        </ul>
+
+        {% include "page_parts/question.html" %}
+        {% include "page_parts/question.html" %}
+        {% include "page_parts/question.html" %}
+        {% include "page_parts/pagination.html" %}
+    </div>
+{% endblock %}

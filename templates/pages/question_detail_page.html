@@ -1,0 +1,14 @@
+{% extends "templates/logged_in_template.html" %}
+
+{% block left_column %}
+    <div class="container-fluid">
+        {% include "page_parts/question_content.html" %}
+        <hr class="horizontal-line">
+        {% include "page_parts/answer.html" %}
+        {% include "page_parts/answer.html" %}
+        {% include "page_parts/answer.html" %}
+        {% include "page_parts/pagination.html" %}
+        <hr class="horizontal-line">
+        {% include "page_parts/answer_question_form.html" %}
+    </div>
+{% endblock %}

@@ -1,0 +1,14 @@
+{% extends "templates/general_template.html" %}
+
+{% block header_left %}
+    {% include "page_parts/left_header.html" %}
+{% endblock %}
+
+{% block header_right %}
+    {% include "page_parts/logged_in_header.html" %}
+{% endblock %}
+
+{% block right_column %}
+    {% include "page_parts/popular_tags.html" %}
+    {% include "page_parts/best_members.html" %}
+{% endblock %}
