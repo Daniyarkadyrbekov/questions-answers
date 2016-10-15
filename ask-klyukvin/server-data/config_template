@@ -1,0 +1,19 @@
+upstream backend {
+	server ask-klyukvin.io:8000;
+}
+
+server {
+	server_name ask-klyukvin.io;
+
+	location /static/ {
+		root {{site_root}}/;		
+	}
+
+	location /uploads/ {
+		root {{site_root}}/;		
+	}
+
+	location / {
+		proxy_pass http://backend;
+	}
+}
