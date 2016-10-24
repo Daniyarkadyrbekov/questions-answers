@@ -1,2 +1,4 @@
 ./make_config.sh
-../../runservers.sh
+cd ../../
+./runservers.sh
+cd ask-klyukvin/server-data
