@@ -9,34 +9,34 @@ Server Software:        nginx/1.10.0
 Server Hostname:        ask-klyukvin.io
 Server Port:            80
 
-Document Path:          /static/bootstrap-3.3.7/css/bootstrap.min.css
-Document Length:        121200 bytes
+Document Path:          /new/
+Document Length:        9518 bytes
 
 Concurrency Level:      100
-Time taken for tests:   0.252 seconds
+Time taken for tests:   19.493 seconds
 Complete requests:      5000
 Failed requests:        0
-Total transferred:      607230000 bytes
-HTML transferred:       606000000 bytes
-Requests per second:    19817.99 [#/sec] (mean)
-Time per request:       5.046 [ms] (mean)
-Time per request:       0.050 [ms] (mean, across all concurrent requests)
-Transfer rate:          2350406.06 [Kbytes/sec] received
+Total transferred:      48320000 bytes
+HTML transferred:       47590000 bytes
+Requests per second:    256.50 [#/sec] (mean)
+Time per request:       389.863 [ms] (mean)
+Time per request:       3.899 [ms] (mean, across all concurrent requests)
+Transfer rate:          2420.72 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        0    0   0.4      0       4
-Processing:     2    5   0.9      5      10
-Waiting:        1    4   0.8      4       9
-Total:          4    5   1.0      5      11
+Connect:        0    0   0.3      0       3
+Processing:    15  386  31.4    388     436
+Waiting:       15  386  31.4    388     436
+Total:         17  386  31.1    388     436
 
 Percentage of the requests served within a certain time (ms)
-  50%      5
-  66%      5
-  75%      5
-  80%      5
-  90%      6
-  95%      7
-  98%      9
-  99%      9
- 100%     11 (longest request)
+  50%    388
+  66%    390
+  75%    393
+  80%    394
+  90%    399
+  95%    405
+  98%    414
+  99%    418
+ 100%    436 (longest request)

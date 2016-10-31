@@ -1,0 +1,44 @@
+This is ApacheBench, Version 2.3 <$Revision: 1706008 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking ask-klyukvin.io (be patient)
+
+
+Server Software:        nginx/1.10.0
+Server Hostname:        ask-klyukvin.io
+Server Port:            80
+
+Document Path:          /new/
+Document Length:        9518 bytes
+
+Concurrency Level:      100
+Time taken for tests:   0.629 seconds
+Complete requests:      5000
+Failed requests:        0
+Total transferred:      48320000 bytes
+HTML transferred:       47590000 bytes
+Requests per second:    7954.23 [#/sec] (mean)
+Time per request:       12.572 [ms] (mean)
+Time per request:       0.126 [ms] (mean, across all concurrent requests)
+Transfer rate:          75068.09 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   0.8      0       6
+Processing:     0   12  49.3      5     626
+Waiting:        0   11  49.4      5     626
+Total:          0   12  49.4      5     627
+WARNING: The median and mean for the initial connection time are not within a normal deviation
+        These results are probably not that reliable.
+
+Percentage of the requests served within a certain time (ms)
+  50%      5
+  66%      7
+  75%      8
+  80%      9
+  90%     12
+  95%     14
+  98%     50
+  99%    291
+ 100%    627 (longest request)

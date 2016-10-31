@@ -7,6 +7,6 @@
 
 # echo "Started gunicorn"
 
-ab -n 5000 -c 100 http://ask:8000/not_logged/ > ./gunicorn_result.txt
+ab -n 5000 -c 100 http://ask:8000/new/
 
 

@@ -9,34 +9,34 @@ Server Software:        gunicorn/19.6.0
 Server Hostname:        ask
 Server Port:            8000
 
-Document Path:          /not_logged/
-Document Length:        9118 bytes
+Document Path:          /new/
+Document Length:        9518 bytes
 
 Concurrency Level:      100
-Time taken for tests:   36.546 seconds
+Time taken for tests:   18.676 seconds
 Complete requests:      5000
 Failed requests:        0
-Total transferred:      46290000 bytes
-HTML transferred:       45590000 bytes
-Requests per second:    136.81 [#/sec] (mean)
-Time per request:       730.916 [ms] (mean)
-Time per request:       7.309 [ms] (mean, across all concurrent requests)
-Transfer rate:          1236.94 [Kbytes/sec] received
+Total transferred:      48290000 bytes
+HTML transferred:       47590000 bytes
+Requests per second:    267.72 [#/sec] (mean)
+Time per request:       373.529 [ms] (mean)
+Time per request:       3.735 [ms] (mean, across all concurrent requests)
+Transfer rate:          2525.01 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        0    0   0.1      0       1
-Processing:     8  724  58.0    729     755
-Waiting:        8  724  58.0    729     755
-Total:         10  724  57.9    729     755
+Connect:        0    0   1.4      0      11
+Processing:    15  370  30.5    373     403
+Waiting:        7  369  30.5    373     402
+Total:         17  370  29.3    374     403
 
 Percentage of the requests served within a certain time (ms)
-  50%    729
-  66%    730
-  75%    731
-  80%    733
-  90%    742
-  95%    745
-  98%    746
-  99%    747
- 100%    755 (longest request)
+  50%    374
+  66%    375
+  75%    376
+  80%    376
+  90%    378
+  95%    380
+  98%    384
+  99%    386
+ 100%    403 (longest request)
